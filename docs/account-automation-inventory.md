@@ -1,4 +1,4 @@
-# Account Automation Inventory
+# Account and Opportunity Automation Inventory
 
 Generated from the Salesforce org on 07 May 2026.
 
@@ -6,6 +6,8 @@ Generated from the Salesforce org on 07 May 2026.
 
 - Active flows on `Account`: 7
 - Active Apex triggers on `Account`: 9
+- Active flows on `Opportunity`: 4
+- Active Apex triggers on `Opportunity`: 10
 
 ## Active flows on `Account`
 
@@ -33,6 +35,30 @@ Generated from the Salesforce org on 07 May 2026.
 | `AuditStdTrigger174908` | Active |
 | `TestAccountDescription` | Active |
 
+## Active flows on `Opportunity`
+
+| API Name | Label | Trigger Type | Record Trigger Type |
+|---|---|---|---|
+| `Opportunity_Approval_Log_After_Save_5gbzva` | Opportunity Approval Log After Save | `RecordAfterSave` | `CreateAndUpdate` |
+| `Opportunity_Follow_Up_Completed_Flow_bgrl69` | Opportunity Follow Up Completion Flow | `RecordAfterSave` | `Update` |
+| `Opportunity_Follow_Up_Completed_o7lfai` | Opportunity Follow Up Completed | `RecordAfterSave` | `Update` |
+| `Opportunity_Tag_At_Risk_2349or` | Opportunity Tag At Risk | `RecordAfterSave` | `CreateAndUpdate` |
+
+## Active Apex triggers on `Opportunity`
+
+| Trigger Name | Status |
+|---|---|
+| `OpportunityAssetCreationTrigger` | Active |
+| `OpportunityAIDescriptionTrigger` | Active |
+| `OpportunityCloseTasks` | Active |
+| `MCP_TEST_OpportunitySync_v24` | Active |
+| `MCP_TEST_OpportunitySync` | Active |
+| `OpportunityThresholdGuardRnd26BTrigger` | Active |
+| `OpportunityAmountPolicySamizianiiTrigger` | Active |
+| `OpportunityAmountGuardTrigger_260326_04` | Active |
+| `OpportunityCloseDateRuleTrigger_260326_07` | Active |
+| `OpportunityNamePrefixTrigger_260326_13` | Active |
+
 ## Notes
 
-This file captures the active automation directly tied to the `Account` object from the earlier Salesforce inventory check in this chat.
+This file captures the active automation directly tied to the `Account` and `Opportunity` objects from the Salesforce inventory gathered in this chat.
